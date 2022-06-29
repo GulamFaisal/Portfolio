@@ -479,10 +479,11 @@
       top: 0px;
       gap: 0;
       flex-direction: column;
-      background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
-      width: 100vw;
+      background: linear-gradient(rgba(28, 120, 207, 0.7),rgba(28, 120, 207, 0.7));
+      width: 107.5vw;
       text-align: center;
       transition: 0.3s;
+      z-index: 0;
     }
     .nav-item{
       margin:16px 0;
@@ -495,6 +496,7 @@
        background: linear-gradient(rgba(0, 106, 255, 0.2),rgba(4,0,255,0.2)),url(./low_poly_mountain_blue_shades-wallpaper-5120x2880.jpg);
       background-size:cover;
       width: 100vw;
+      height: 140vh;
   
     }
     .abt{
@@ -510,9 +512,9 @@
       padding-right:-5px ;
   
     }
-    .meg{
+    .abt .meg{
       position: relative;
-      top: -50vmax;
+      top: -725px;
     }
     .intro .dcp{
       position: relative;
@@ -522,7 +524,7 @@
     }
     .im{
       position: relative;
-      left: -120px;
+      left: 50px;
     }
     .intro .dom{
       position: relative;
@@ -536,8 +538,8 @@
     }
     .skill{
       position:absolute;
-      right: 160px;
-      top:550px;
+      right: 140px;
+      top:520px;
     }
     .h{
       top: 20px;
@@ -599,7 +601,7 @@
       width: 100vw;
       height: 350px;
       position: relative;
-      top: -75vmax;
+      top: -88vmax;
       
       
 
